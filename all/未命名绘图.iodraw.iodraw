@@ -180,14 +180,14 @@
         <mxCell id="ohgahNltDCEUwEcNUe-D-45" value="Socket通信" style="curved=1;startArrow=none;endArrow=block;exitX=0.57;exitY=1;entryX=0;entryY=0.14;rounded=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
-            <mxPoint x="460.0000000000002" y="1292" as="sourcePoint" />
-            <mxPoint x="529" y="1434.3000000000002" as="targetPoint" />
+            <mxPoint x="469.0000000000002" y="1292" as="sourcePoint" />
+            <mxPoint x="538" y="1434.3000000000002" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ohgahNltDCEUwEcNUe-D-46" value="JSON序列化 / TCP/IP" style="curved=1;startArrow=none;endArrow=block;exitX=0.87;exitY=1;entryX=0.35;entryY=0;rounded=0;" edge="1" parent="1" source="ohgahNltDCEUwEcNUe-D-14" target="ohgahNltDCEUwEcNUe-D-6">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="613" y="1329" />
+              <mxPoint x="640" y="1340" />
             </Array>
           </mxGeometry>
         </mxCell>
