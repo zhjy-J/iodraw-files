@@ -97,7 +97,7 @@
         <mxCell id="ohgahNltDCEUwEcNUe-D-24" value="" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="487" y="20" width="330" height="149" as="geometry" />
         </mxCell>
-        <mxCell id="ohgahNltDCEUwEcNUe-D-25" value="&lt;b&gt;测斜数据采集与导入&lt;/b&gt;&#xa;(孔深、倾角、方位角等原始参数)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="ohgahNltDCEUwEcNUe-D-25" value="测斜数据采集与导入&#xa;(孔深、倾角、方位角等原始参数)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="522" y="45" width="260" height="99" as="geometry" />
         </mxCell>
         <mxCell id="ohgahNltDCEUwEcNUe-D-26" value="数据预处理模块" style="rounded=1;arcSize=20;strokeWidth=2" vertex="1" parent="1">
