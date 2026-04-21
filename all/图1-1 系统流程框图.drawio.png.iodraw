@@ -4,9 +4,6 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="ohgahNltDCEUwEcNUe-D-4" value="" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="496" y="2150" width="226" height="381" as="geometry" />
-        </mxCell>
         <mxCell id="ohgahNltDCEUwEcNUe-D-5" value="Qt-Python混合架构" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="207" y="755" width="621" height="1130" as="geometry" />
         </mxCell>
@@ -22,12 +19,6 @@
         <mxCell id="ohgahNltDCEUwEcNUe-D-11" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.98;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="ohgahNltDCEUwEcNUe-D-6" source="ohgahNltDCEUwEcNUe-D-7" target="ohgahNltDCEUwEcNUe-D-8">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ohgahNltDCEUwEcNUe-D-12" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="ohgahNltDCEUwEcNUe-D-6" source="ohgahNltDCEUwEcNUe-D-8">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-            <mxPoint x="120.99999999999955" y="293" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ohgahNltDCEUwEcNUe-D-14" value="轨迹计算模块（Python）" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
