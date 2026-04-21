@@ -223,6 +223,113 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="CMCo7iw_FNLkdyvmcEcS-1" value="数据管理层" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="360" y="715" width="789" height="141" as="geometry" />
+        </mxCell>
+        <mxCell id="CMCo7iw_FNLkdyvmcEcS-2" value="数据导入&#xa;CSV/TXT/XLSX" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="CMCo7iw_FNLkdyvmcEcS-1">
+          <mxGeometry x="43" y="46" width="165" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="CMCo7iw_FNLkdyvmcEcS-3" value="数据清洗&#xa;异常值剔除" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="CMCo7iw_FNLkdyvmcEcS-1">
+          <mxGeometry x="258" y="46" width="140" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="CMCo7iw_FNLkdyvmcEcS-4" value="数据存储&#xa;本地文件" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="CMCo7iw_FNLkdyvmcEcS-1">
+          <mxGeometry x="448" y="46" width="124" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="CMCo7iw_FNLkdyvmcEcS-5" value="格式转换&#xa;角度转弧度" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="CMCo7iw_FNLkdyvmcEcS-1">
+          <mxGeometry x="622" y="46" width="140" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="CMCo7iw_FNLkdyvmcEcS-6" value="计算处理层_Python" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="20" y="541" width="1469" height="124" as="geometry" />
+        </mxCell>
+        <mxCell id="CMCo7iw_FNLkdyvmcEcS-7" value="改进均角全距法" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="CMCo7iw_FNLkdyvmcEcS-6">
+          <mxGeometry x="43" y="46" width="172" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="CMCo7iw_FNLkdyvmcEcS-8" value="坐标转换" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="CMCo7iw_FNLkdyvmcEcS-6">
+          <mxGeometry x="265" y="46" width="124" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="CMCo7iw_FNLkdyvmcEcS-9" value="三次样条插值" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="CMCo7iw_FNLkdyvmcEcS-6">
+          <mxGeometry x="439" y="46" width="156" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="CMCo7iw_FNLkdyvmcEcS-10" value="多项式拟合" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="CMCo7iw_FNLkdyvmcEcS-6">
+          <mxGeometry x="645" y="46" width="140" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="CMCo7iw_FNLkdyvmcEcS-11" value="NumPy数值计算" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="CMCo7iw_FNLkdyvmcEcS-6">
+          <mxGeometry x="835" y="46" width="173" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="CMCo7iw_FNLkdyvmcEcS-12" value="SciPy科学计算" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="CMCo7iw_FNLkdyvmcEcS-6">
+          <mxGeometry x="1058" y="46" width="161" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="CMCo7iw_FNLkdyvmcEcS-13" value="Pandas数据处理" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="CMCo7iw_FNLkdyvmcEcS-6">
+          <mxGeometry x="1269" y="46" width="173" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="CMCo7iw_FNLkdyvmcEcS-14" value="通信接口层" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="291" y="367" width="928" height="124" as="geometry" />
+        </mxCell>
+        <mxCell id="CMCo7iw_FNLkdyvmcEcS-15" value="Socket TCP/IP 通信" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="CMCo7iw_FNLkdyvmcEcS-14">
+          <mxGeometry x="43" y="46" width="198" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="CMCo7iw_FNLkdyvmcEcS-16" value="请求-响应模式" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="CMCo7iw_FNLkdyvmcEcS-14">
+          <mxGeometry x="291" y="46" width="162" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="CMCo7iw_FNLkdyvmcEcS-17" value="JSON数据序列化" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="CMCo7iw_FNLkdyvmcEcS-14">
+          <mxGeometry x="503" y="46" width="176" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="CMCo7iw_FNLkdyvmcEcS-18" value="异步非阻塞调用" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="CMCo7iw_FNLkdyvmcEcS-14">
+          <mxGeometry x="729" y="46" width="172" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="CMCo7iw_FNLkdyvmcEcS-19" value="可视化渲染层" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="277" y="194" width="955" height="124" as="geometry" />
+        </mxCell>
+        <mxCell id="CMCo7iw_FNLkdyvmcEcS-20" value="Qt Data Visualization" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="CMCo7iw_FNLkdyvmcEcS-19">
+          <mxGeometry x="43" y="46" width="211" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="CMCo7iw_FNLkdyvmcEcS-21" value="OpenGL图形库" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="CMCo7iw_FNLkdyvmcEcS-19">
+          <mxGeometry x="304" y="46" width="164" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="CMCo7iw_FNLkdyvmcEcS-22" value="光照与材质渲染" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="CMCo7iw_FNLkdyvmcEcS-19">
+          <mxGeometry x="518" y="46" width="172" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="CMCo7iw_FNLkdyvmcEcS-23" value="坐标轴与刻度标注" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="CMCo7iw_FNLkdyvmcEcS-19">
+          <mxGeometry x="740" y="46" width="188" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="CMCo7iw_FNLkdyvmcEcS-24" value="交互控制层" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="310" y="20" width="890" height="124" as="geometry" />
+        </mxCell>
+        <mxCell id="CMCo7iw_FNLkdyvmcEcS-25" value="轨迹旋转" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="CMCo7iw_FNLkdyvmcEcS-24">
+          <mxGeometry x="43" y="46" width="124" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="CMCo7iw_FNLkdyvmcEcS-26" value="轨迹缩放" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="CMCo7iw_FNLkdyvmcEcS-24">
+          <mxGeometry x="217" y="46" width="124" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="CMCo7iw_FNLkdyvmcEcS-27" value="轨迹平移" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="CMCo7iw_FNLkdyvmcEcS-24">
+          <mxGeometry x="391" y="46" width="124" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="CMCo7iw_FNLkdyvmcEcS-28" value="视角切换" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="CMCo7iw_FNLkdyvmcEcS-24">
+          <mxGeometry x="565" y="46" width="124" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="CMCo7iw_FNLkdyvmcEcS-29" value="测点拾取" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="CMCo7iw_FNLkdyvmcEcS-24">
+          <mxGeometry x="739" y="46" width="124" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="CMCo7iw_FNLkdyvmcEcS-30" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="CMCo7iw_FNLkdyvmcEcS-24" target="CMCo7iw_FNLkdyvmcEcS-19">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CMCo7iw_FNLkdyvmcEcS-31" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="CMCo7iw_FNLkdyvmcEcS-19" target="CMCo7iw_FNLkdyvmcEcS-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CMCo7iw_FNLkdyvmcEcS-32" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="CMCo7iw_FNLkdyvmcEcS-14" target="CMCo7iw_FNLkdyvmcEcS-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CMCo7iw_FNLkdyvmcEcS-33" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="CMCo7iw_FNLkdyvmcEcS-6" target="CMCo7iw_FNLkdyvmcEcS-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
