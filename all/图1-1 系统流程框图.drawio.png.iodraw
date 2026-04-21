@@ -4,9 +4,6 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="ohgahNltDCEUwEcNUe-D-3" value="" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="354" y="2015" width="403" height="527" as="geometry" />
-        </mxCell>
         <mxCell id="ohgahNltDCEUwEcNUe-D-4" value="" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="496" y="2150" width="226" height="381" as="geometry" />
         </mxCell>
@@ -22,25 +19,15 @@
         <mxCell id="ohgahNltDCEUwEcNUe-D-8" value="三次样条插值" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="ohgahNltDCEUwEcNUe-D-6">
           <mxGeometry x="43" y="169" width="156" height="49" as="geometry" />
         </mxCell>
-        <mxCell id="ohgahNltDCEUwEcNUe-D-9" value="OpenGL渲染" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="ohgahNltDCEUwEcNUe-D-6">
-          <mxGeometry x="47" y="293" width="148" height="49" as="geometry" />
-        </mxCell>
-        <mxCell id="ohgahNltDCEUwEcNUe-D-10" value="人机交互控制" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="ohgahNltDCEUwEcNUe-D-6">
-          <mxGeometry x="43" y="417" width="156" height="49" as="geometry" />
-        </mxCell>
         <mxCell id="ohgahNltDCEUwEcNUe-D-11" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.98;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="ohgahNltDCEUwEcNUe-D-6" source="ohgahNltDCEUwEcNUe-D-7" target="ohgahNltDCEUwEcNUe-D-8">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ohgahNltDCEUwEcNUe-D-12" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="ohgahNltDCEUwEcNUe-D-6" source="ohgahNltDCEUwEcNUe-D-8" target="ohgahNltDCEUwEcNUe-D-9">
+        <mxCell id="ohgahNltDCEUwEcNUe-D-12" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="ohgahNltDCEUwEcNUe-D-6" source="ohgahNltDCEUwEcNUe-D-8">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ohgahNltDCEUwEcNUe-D-13" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="ohgahNltDCEUwEcNUe-D-6" source="ohgahNltDCEUwEcNUe-D-9" target="ohgahNltDCEUwEcNUe-D-10">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
+            <mxPoint x="120.99999999999955" y="293" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ohgahNltDCEUwEcNUe-D-14" value="轨迹计算模块（Python）" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
@@ -106,23 +93,11 @@
         <mxCell id="ohgahNltDCEUwEcNUe-D-29" value="弧度化" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="598" y="532" width="108" height="46" as="geometry" />
         </mxCell>
-        <mxCell id="ohgahNltDCEUwEcNUe-D-30" value="三维轨迹可视化输出" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="382" y="2040" width="204" height="46" as="geometry" />
-        </mxCell>
-        <mxCell id="ohgahNltDCEUwEcNUe-D-31" value="三维曲线渲染" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="539" y="2207" width="156" height="46" as="geometry" />
-        </mxCell>
-        <mxCell id="ohgahNltDCEUwEcNUe-D-32" value="坐标轴标注" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="547" y="2350" width="140" height="46" as="geometry" />
-        </mxCell>
         <mxCell id="ohgahNltDCEUwEcNUe-D-33" value="信息面板" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="555" y="2446" width="124" height="46" as="geometry" />
         </mxCell>
         <mxCell id="ohgahNltDCEUwEcNUe-D-34" value="" style="rounded=1;arcSize=20;strokeWidth=2" vertex="1" parent="1">
           <mxGeometry x="637" y="653" width="30" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="ohgahNltDCEUwEcNUe-D-35" value="" style="rounded=1;arcSize=20;strokeWidth=2" vertex="1" parent="1">
-          <mxGeometry x="469" y="1935" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ohgahNltDCEUwEcNUe-D-36" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="ohgahNltDCEUwEcNUe-D-27" target="ohgahNltDCEUwEcNUe-D-28">
           <mxGeometry relative="1" as="geometry">
@@ -130,16 +105,6 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="ohgahNltDCEUwEcNUe-D-37" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="ohgahNltDCEUwEcNUe-D-28" target="ohgahNltDCEUwEcNUe-D-29">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ohgahNltDCEUwEcNUe-D-38" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="ohgahNltDCEUwEcNUe-D-31" target="ohgahNltDCEUwEcNUe-D-32">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ohgahNltDCEUwEcNUe-D-39" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="ohgahNltDCEUwEcNUe-D-32" target="ohgahNltDCEUwEcNUe-D-33">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
           </mxGeometry>
@@ -157,18 +122,6 @@
         <mxCell id="ohgahNltDCEUwEcNUe-D-42" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.49;entryY=-0.01;rounded=0;" edge="1" parent="1" source="ohgahNltDCEUwEcNUe-D-29" target="ohgahNltDCEUwEcNUe-D-34">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ohgahNltDCEUwEcNUe-D-43" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="ohgahNltDCEUwEcNUe-D-35" target="ohgahNltDCEUwEcNUe-D-30">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ohgahNltDCEUwEcNUe-D-44" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.81;exitY=1;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="ohgahNltDCEUwEcNUe-D-30" target="ohgahNltDCEUwEcNUe-D-31">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="617" y="2111" />
-            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="ohgahNltDCEUwEcNUe-D-45" value="Socket通信" style="curved=1;startArrow=none;endArrow=block;exitX=0.57;exitY=1;entryX=0;entryY=0.14;rounded=0;" edge="1" parent="1">
@@ -200,19 +153,13 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="ohgahNltDCEUwEcNUe-D-49" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.29;exitY=1;entryX=0;entryY=0.36;rounded=0;" edge="1" parent="1" source="ohgahNltDCEUwEcNUe-D-14" target="ohgahNltDCEUwEcNUe-D-35">
+        <mxCell id="ohgahNltDCEUwEcNUe-D-49" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.29;exitY=1;entryX=0;entryY=0.36;rounded=0;" edge="1" parent="1" source="ohgahNltDCEUwEcNUe-D-14">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="345" y="1329" />
               <mxPoint x="345" y="1910" />
             </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ohgahNltDCEUwEcNUe-D-50" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=1;entryY=0.38;rounded=0;" edge="1" parent="1" source="ohgahNltDCEUwEcNUe-D-6" target="ohgahNltDCEUwEcNUe-D-35">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="652" y="1910" />
-            </Array>
+            <mxPoint x="469" y="1945.8000000000002" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="zvQWBNLxgCJfmLgGqabk-1" value="三维可视化模块 Qt" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
