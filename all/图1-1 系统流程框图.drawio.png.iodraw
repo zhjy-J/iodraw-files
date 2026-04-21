@@ -338,6 +338,41 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="YfgubyFIRdah3tuForz1-1" value="测斜数据&#xa;原始参数 L,θ,α&#xa;异常值剔除" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="20" y="29" width="167" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="YfgubyFIRdah3tuForz1-2" value="坐标计算&#xa;改进均角全距算法&#xa;修正系数λ判定&#xa;坐标增量累加" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="286" y="20" width="188" height="101" as="geometry" />
+        </mxCell>
+        <mxCell id="YfgubyFIRdah3tuForz1-3" value="曲线拟合&#xa;三次样条插值&#xa;自然边界条件&#xa;分段拟合策略" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="573" y="20" width="157" height="101" as="geometry" />
+        </mxCell>
+        <mxCell id="YfgubyFIRdah3tuForz1-4" value="坐标映射&#xa;大地坐标→屏幕坐标&#xa;归一化处理&#xa;视口变换" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="828" y="20" width="204" height="101" as="geometry" />
+        </mxCell>
+        <mxCell id="YfgubyFIRdah3tuForz1-5" value="图形渲染&#xa;OpenGL渲染管线&#xa;光照与材质&#xa;帧缓冲输出" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1131" y="20" width="180" height="101" as="geometry" />
+        </mxCell>
+        <mxCell id="YfgubyFIRdah3tuForz1-6" value="Step 1" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;" edge="1" parent="1" source="YfgubyFIRdah3tuForz1-1" target="YfgubyFIRdah3tuForz1-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YfgubyFIRdah3tuForz1-7" value="Step 2" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;" edge="1" parent="1" source="YfgubyFIRdah3tuForz1-2" target="YfgubyFIRdah3tuForz1-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YfgubyFIRdah3tuForz1-8" value="Step 3" style="curved=1;startArrow=none;endArrow=block;exitX=0.99;exitY=0.5;entryX=0;entryY=0.5;rounded=0;" edge="1" parent="1" source="YfgubyFIRdah3tuForz1-3" target="YfgubyFIRdah3tuForz1-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YfgubyFIRdah3tuForz1-9" value="Step 4" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;" edge="1" parent="1" source="YfgubyFIRdah3tuForz1-4" target="YfgubyFIRdah3tuForz1-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
