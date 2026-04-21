@@ -7,7 +7,7 @@
         <mxCell id="zvQWBNLxgCJfmLgGqabk-1" value="三维可视化模块 Qt" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="504" y="2995" width="316" height="374" as="geometry" />
         </mxCell>
-        <mxCell id="zvQWBNLxgCJfmLgGqabk-2" value="轨迹计算模块 Python" style="whiteSpace=wrap;strokeWidth=2;textShadow=0;" vertex="1" parent="1">
+        <mxCell id="zvQWBNLxgCJfmLgGqabk-2" value="轨迹计算模块 Python" style="whiteSpace=wrap;strokeWidth=2;textShadow=0;fontSize=13;" vertex="1" parent="1">
           <mxGeometry x="206" y="2813" width="278" height="414" as="geometry" />
         </mxCell>
         <mxCell id="zvQWBNLxgCJfmLgGqabk-3" value="测斜数据采集与导入&#xa;（孔深、倾角、方位角）" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
@@ -55,7 +55,6 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="327" y="2950" />
-              <mxPoint x="332" y="2934" />
             </Array>
           </mxGeometry>
         </mxCell>
