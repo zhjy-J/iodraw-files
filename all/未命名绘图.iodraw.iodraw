@@ -233,7 +233,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="ohgahNltDCEUwEcNUe-D-5" value="Qt-Python混合架构" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="190" y="760" width="621" height="1130" as="geometry" />
+          <mxGeometry x="196" y="760" width="621" height="1130" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
