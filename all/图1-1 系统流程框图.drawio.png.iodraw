@@ -435,6 +435,149 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="HfvkvTW65r3517VpgTt1-1" value="用户输入事件&#xa;鼠标/键盘/滚轮" style="rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="440" y="20" width="141" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="HfvkvTW65r3517VpgTt1-2" value="事件类型识别" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="438" y="121" width="145" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="HfvkvTW65r3517VpgTt1-3" value="计算旋转矩阵&#xa;glRotatef" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="20" y="339" width="156" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="HfvkvTW65r3517VpgTt1-4" value="计算位移向量&#xa;glTranslatef" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="226" y="339" width="156" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="HfvkvTW65r3517VpgTt1-5" value="获取滚动增量&#xa;调整视野距离" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="432" y="339" width="156" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="HfvkvTW65r3517VpgTt1-6" value="匹配预设视角&#xa;设置相机参数" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="638" y="339" width="156" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="HfvkvTW65r3517VpgTt1-7" value="射线拾取检测&#xa;查询测点信息" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="844" y="339" width="156" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="HfvkvTW65r3517VpgTt1-8" value="轨迹旋转" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="36" y="455" width="124" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="HfvkvTW65r3517VpgTt1-9" value="轨迹平移" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="242" y="455" width="124" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="HfvkvTW65r3517VpgTt1-10" value="轨迹缩放" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="448" y="455" width="124" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="HfvkvTW65r3517VpgTt1-11" value="视角切换" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="654" y="455" width="124" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="HfvkvTW65r3517VpgTt1-12" value="信息面板显示" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="844" y="455" width="156" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="HfvkvTW65r3517VpgTt1-13" value="更新渲染画面" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="432" y="554" width="156" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="HfvkvTW65r3517VpgTt1-14" value="等待下一事件" style="rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="450" y="652" width="119" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="HfvkvTW65r3517VpgTt1-15" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="HfvkvTW65r3517VpgTt1-1" target="HfvkvTW65r3517VpgTt1-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HfvkvTW65r3517VpgTt1-16" value="左键拖拽" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.63;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="HfvkvTW65r3517VpgTt1-2" target="HfvkvTW65r3517VpgTt1-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="98" y="302" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HfvkvTW65r3517VpgTt1-17" value="右键拖拽" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.76;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="HfvkvTW65r3517VpgTt1-2" target="HfvkvTW65r3517VpgTt1-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="304" y="302" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HfvkvTW65r3517VpgTt1-18" value="滚轮滚动" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="HfvkvTW65r3517VpgTt1-2" target="HfvkvTW65r3517VpgTt1-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HfvkvTW65r3517VpgTt1-19" value="快捷键" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.76;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="HfvkvTW65r3517VpgTt1-2" target="HfvkvTW65r3517VpgTt1-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="716" y="302" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HfvkvTW65r3517VpgTt1-20" value="鼠标悬停" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.63;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="HfvkvTW65r3517VpgTt1-2" target="HfvkvTW65r3517VpgTt1-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="922" y="302" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HfvkvTW65r3517VpgTt1-21" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="HfvkvTW65r3517VpgTt1-3" target="HfvkvTW65r3517VpgTt1-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HfvkvTW65r3517VpgTt1-22" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="HfvkvTW65r3517VpgTt1-4" target="HfvkvTW65r3517VpgTt1-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HfvkvTW65r3517VpgTt1-23" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="HfvkvTW65r3517VpgTt1-5" target="HfvkvTW65r3517VpgTt1-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HfvkvTW65r3517VpgTt1-24" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="HfvkvTW65r3517VpgTt1-6" target="HfvkvTW65r3517VpgTt1-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HfvkvTW65r3517VpgTt1-25" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="HfvkvTW65r3517VpgTt1-7" target="HfvkvTW65r3517VpgTt1-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HfvkvTW65r3517VpgTt1-26" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0;entryY=0.3;rounded=0;" edge="1" parent="1" source="HfvkvTW65r3517VpgTt1-8" target="HfvkvTW65r3517VpgTt1-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="98" y="529" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HfvkvTW65r3517VpgTt1-27" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0;entryY=0.11;rounded=0;" edge="1" parent="1" source="HfvkvTW65r3517VpgTt1-9" target="HfvkvTW65r3517VpgTt1-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="304" y="529" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HfvkvTW65r3517VpgTt1-28" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="HfvkvTW65r3517VpgTt1-10" target="HfvkvTW65r3517VpgTt1-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HfvkvTW65r3517VpgTt1-29" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=1;entryY=0.11;rounded=0;" edge="1" parent="1" source="HfvkvTW65r3517VpgTt1-11" target="HfvkvTW65r3517VpgTt1-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="716" y="529" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HfvkvTW65r3517VpgTt1-30" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=1;entryY=0.3;rounded=0;" edge="1" parent="1" source="HfvkvTW65r3517VpgTt1-12" target="HfvkvTW65r3517VpgTt1-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="922" y="529" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HfvkvTW65r3517VpgTt1-31" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.98;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="HfvkvTW65r3517VpgTt1-13" target="HfvkvTW65r3517VpgTt1-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
