@@ -190,57 +190,12 @@
     </mxGraphModel>
   </diagram>
   <diagram id="0o2WY30t4rDdFUHpTPzg" name="第 4 页">
-    <mxGraphModel dx="2133" dy="1014" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2533" dy="614" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="LFPfaPPkDzLsOxndFXbi-1" value="（b）修正后的正确计算" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="168" y="20" width="726" height="389" as="geometry" />
-        </mxCell>
-        <mxCell id="LFPfaPPkDzLsOxndFXbi-2" value="圆心 O" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="LFPfaPPkDzLsOxndFXbi-1">
-          <mxGeometry x="292" y="187" width="108" height="49" as="geometry" />
-        </mxCell>
-        <mxCell id="LFPfaPPkDzLsOxndFXbi-3" value="向上箭头 N0°" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="LFPfaPPkDzLsOxndFXbi-1">
-          <mxGeometry x="268" y="310" width="156" height="49" as="geometry" />
-        </mxCell>
-        <mxCell id="LFPfaPPkDzLsOxndFXbi-4" value="α₁=350° 左上方" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="LFPfaPPkDzLsOxndFXbi-1">
-          <mxGeometry x="43" y="54" width="171" height="49" as="geometry" />
-        </mxCell>
-        <mxCell id="LFPfaPPkDzLsOxndFXbi-5" value="α₂=10° 右上方" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="LFPfaPPkDzLsOxndFXbi-1">
-          <mxGeometry x="264" y="54" width="163" height="49" as="geometry" />
-        </mxCell>
-        <mxCell id="LFPfaPPkDzLsOxndFXbi-6" value="算术平均=实际平均=0° 向上加粗实线" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="LFPfaPPkDzLsOxndFXbi-1">
-          <mxGeometry x="477" y="46" width="222" height="66" as="geometry" />
-        </mxCell>
-        <mxCell id="LFPfaPPkDzLsOxndFXbi-7" value="方向一致 λ=-1" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="LFPfaPPkDzLsOxndFXbi-1">
-          <mxGeometry x="539" y="310" width="160" height="49" as="geometry" />
-        </mxCell>
-        <mxCell id="LFPfaPPkDzLsOxndFXbi-8" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="LFPfaPPkDzLsOxndFXbi-1" source="LFPfaPPkDzLsOxndFXbi-2" target="LFPfaPPkDzLsOxndFXbi-3">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="LFPfaPPkDzLsOxndFXbi-9" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0;entryY=0.18;rounded=0;" edge="1" parent="LFPfaPPkDzLsOxndFXbi-1" source="LFPfaPPkDzLsOxndFXbi-4" target="LFPfaPPkDzLsOxndFXbi-2">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="129" y="149" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="LFPfaPPkDzLsOxndFXbi-10" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="LFPfaPPkDzLsOxndFXbi-1" source="LFPfaPPkDzLsOxndFXbi-5" target="LFPfaPPkDzLsOxndFXbi-2">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="LFPfaPPkDzLsOxndFXbi-11" value="" style="curved=1;startArrow=none;endArrow=block;strokeWidth=3;exitX=0.5;exitY=1;entryX=1;entryY=0.21;rounded=0;" edge="1" parent="LFPfaPPkDzLsOxndFXbi-1" source="LFPfaPPkDzLsOxndFXbi-6" target="LFPfaPPkDzLsOxndFXbi-2">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="588" y="149" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="LFPfaPPkDzLsOxndFXbi-12" value="（a）方位角差值大于180°时的错误计算" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="-5" y="502" width="1022" height="371" as="geometry" />
+          <mxGeometry x="-5" y="502" width="1022" height="463" as="geometry" />
         </mxCell>
         <mxCell id="LFPfaPPkDzLsOxndFXbi-13" value="圆心 O" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="LFPfaPPkDzLsOxndFXbi-12">
           <mxGeometry x="422" y="169" width="108" height="49" as="geometry" />
@@ -293,6 +248,51 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="890" y="132" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LFPfaPPkDzLsOxndFXbi-1" value="（b）修正后的正确计算" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="LFPfaPPkDzLsOxndFXbi-12">
+          <mxGeometry x="-414" y="74" width="726" height="389" as="geometry" />
+        </mxCell>
+        <mxCell id="LFPfaPPkDzLsOxndFXbi-2" value="圆心 O" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="LFPfaPPkDzLsOxndFXbi-1">
+          <mxGeometry x="292" y="187" width="108" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="LFPfaPPkDzLsOxndFXbi-3" value="向上箭头 N0°" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="LFPfaPPkDzLsOxndFXbi-1">
+          <mxGeometry x="268" y="310" width="156" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="LFPfaPPkDzLsOxndFXbi-4" value="α₁=350° 左上方" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="LFPfaPPkDzLsOxndFXbi-1">
+          <mxGeometry x="43" y="54" width="171" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="LFPfaPPkDzLsOxndFXbi-5" value="α₂=10° 右上方" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="LFPfaPPkDzLsOxndFXbi-1">
+          <mxGeometry x="264" y="54" width="163" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="LFPfaPPkDzLsOxndFXbi-6" value="算术平均=实际平均=0° 向上加粗实线" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="LFPfaPPkDzLsOxndFXbi-1">
+          <mxGeometry x="477" y="46" width="222" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="LFPfaPPkDzLsOxndFXbi-7" value="方向一致 λ=-1" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="LFPfaPPkDzLsOxndFXbi-1">
+          <mxGeometry x="539" y="310" width="160" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="LFPfaPPkDzLsOxndFXbi-8" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="LFPfaPPkDzLsOxndFXbi-1" source="LFPfaPPkDzLsOxndFXbi-2" target="LFPfaPPkDzLsOxndFXbi-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LFPfaPPkDzLsOxndFXbi-9" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0;entryY=0.18;rounded=0;" edge="1" parent="LFPfaPPkDzLsOxndFXbi-1" source="LFPfaPPkDzLsOxndFXbi-4" target="LFPfaPPkDzLsOxndFXbi-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="129" y="149" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LFPfaPPkDzLsOxndFXbi-10" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="LFPfaPPkDzLsOxndFXbi-1" source="LFPfaPPkDzLsOxndFXbi-5" target="LFPfaPPkDzLsOxndFXbi-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LFPfaPPkDzLsOxndFXbi-11" value="" style="curved=1;startArrow=none;endArrow=block;strokeWidth=3;exitX=0.5;exitY=1;entryX=1;entryY=0.21;rounded=0;" edge="1" parent="LFPfaPPkDzLsOxndFXbi-1" source="LFPfaPPkDzLsOxndFXbi-6" target="LFPfaPPkDzLsOxndFXbi-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="588" y="149" />
             </Array>
           </mxGeometry>
         </mxCell>
