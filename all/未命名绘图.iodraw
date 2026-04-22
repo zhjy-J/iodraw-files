@@ -190,12 +190,12 @@
     </mxGraphModel>
   </diagram>
   <diagram id="0o2WY30t4rDdFUHpTPzg" name="第 4 页">
-    <mxGraphModel dx="2533" dy="614" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1333" dy="1014" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="LFPfaPPkDzLsOxndFXbi-12" value="（a）方位角差值大于180°时的错误计算" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="-5" y="502" width="1022" height="463" as="geometry" />
+          <mxGeometry x="901" y="372" width="1022" height="463" as="geometry" />
         </mxCell>
         <mxCell id="LFPfaPPkDzLsOxndFXbi-13" value="圆心 O" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="LFPfaPPkDzLsOxndFXbi-12">
           <mxGeometry x="422" y="169" width="108" height="49" as="geometry" />
